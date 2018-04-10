@@ -57,6 +57,7 @@ public class WatchGUI extends JFrame{
 
     public void writeTime(String time){
         timeLabel.setText(time);
+        System.out.println("xd");
     }
 
     private class GUIListener implements ActionListener {
